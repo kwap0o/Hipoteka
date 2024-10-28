@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | Mortgage repayment calculator</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="left">
+        <div class="Heading">
+          <h2>Mortgage Calculator</h2>
+          <p class="clear">Clear All</p>
+        </div>
+        <label class="label_text" for="Mortgage_amount">Mortgage amount</label>
+        <div class="Mortgage_amount">
+          <label for="Mortgage_amount">£</label>
+          <input type="number" name="Mortgage_amount" placeholder="How much?" />
+        </div>
+
+        <div class="mortgage_interest">
+          <div class="years_div">
+            <label class="label_text" for="years">Mortgage term</label>
+            <div class="years">
+              <input type="number" name="years" />
+              <label for="years">years</label>
+            </div>
+          </div>
+
+          <div class="procent_div">
+            <label class="label_text" for="procent">Interest Rate</label>
+            <div class="procent">
+              <input type="number" name="procent" />
+              <label for="procent">%</label>
+            </div>
+          </div>
+        </div>
+
+        <div class="type">
+          <label class="label_text" for="type">Mortgage Type</label>
+          <div class="type_button_1">
+            <input type="radio" name="Repayment" />
+            <label for="Repayment">Repayment</label>
+          </div>
+          <div class="type_button_2">
+            <input type="radio" name="Interest_only" />
+            <label for="Interest_only">Interest Only</label>
+          </div>
+        </div>
+        <button class="Calculate button_text">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            fill="none"
+            viewBox="0 0 24 24"
+          >
+            <path
+              fill="#133041"
+              d="M18.75 2.25H5.25a1.5 1.5 0 0 0-1.5 1.5v16.5a1.5 1.5 0 0 0 1.5 1.5h13.5a1.5 1.5 0 0 0 1.5-1.5V3.75a1.5 1.5 0 0 0-1.5-1.5Zm-10.5 16.5a1.125 1.125 0 1 1 0-2.25 1.125 1.125 0 0 1 0 2.25Zm0-3.75a1.125 1.125 0 1 1 0-2.25 1.125 1.125 0 0 1 0 2.25ZM12 18.75a1.125 1.125 0 1 1 0-2.25 1.125 1.125 0 0 1 0 2.25ZM12 15a1.125 1.125 0 1 1 0-2.25A1.125 1.125 0 0 1 12 15Zm3.75 3.75a1.125 1.125 0 1 1 0-2.25 1.125 1.125 0 0 1 0 2.25Zm0-3.75a1.125 1.125 0 1 1 0-2.25 1.125 1.125 0 0 1 0 2.25Zm1.5-5.25a.75.75 0 0 1-.75.75h-9a.75.75 0 0 1-.75-.75V6a.75.75 0 0 1 .75-.75h9a.75.75 0 0 1 .75.75v3.75Z"
+            />
+          </svg>
+          Calculate Repayments
+        </button>
+      </div>
+
+      <div class="right">
+        <img src="/assets/images/illustration-empty.svg" class="img" />
+        <h3>Result shown here</h3>
+        <p>
+          Comlete the form and click "calculate repayments" to see what your
+          mounthly repayments would be
+        </p>
+      </div>
+    </div>
+    <footer class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge">Frontend Mentor</a>.
+      Coded by <a href="#">kwap0o</a>.
+    </footer>
+    <script src="index.js"></script>
+  </body>
+</html>

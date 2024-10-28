@@ -1,0 +1,189 @@
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+* {
+  font-family: "Courier New", Courier, monospace;
+}
+body {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh;
+  background-color: hsl(202, 86%, 94%);
+}
+.container {
+  width: 80%;
+  height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  border-radius: 5%;
+}
+.left {
+  border-top-left-radius: 5%;
+  border-bottom-left-radius: 5%;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0 30px;
+  background-color: white;
+}
+.Heading {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.Heading p {
+  color: hsl(200, 26%, 54%);
+}
+.Heading p:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+.Mortgage_amount {
+  border: 2px solid hsl(203, 41%, 72%);
+  border-radius: 5px;
+  height: 26px;
+  display: flex;
+  align-items: center;
+  padding: 6px 0 6px 0;
+}
+.Mortgage_amount label {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 10%;
+  height: 28px;
+  background-color: hsl(202, 86%, 94%);
+  padding: 5px;
+}
+.Mortgage_amount input {
+  border: none;
+  width: 100%;
+  height: 100%;
+}
+.mortgage_interest {
+  margin: 20px 0 20px 0;
+  display: flex;
+  justify-content: space-between;
+  gap: 15px;
+}
+.years {
+  border: 2px solid hsl(203, 41%, 72%);
+  border-radius: 5px;
+  height: 26px;
+  display: flex;
+  align-items: center;
+  width: 90%;
+  padding: 6px 0 6px 0;
+}
+.years input {
+  border: none;
+  width: 80%;
+  height: 24px;
+}
+.years label {
+  background-color: hsl(202, 86%, 94%);
+  height: 26px;
+  width: 20%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 6px;
+}
+.procent {
+  border: 2px solid hsl(203, 41%, 72%);
+  border-radius: 5px;
+  height: 26px;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  padding: 6px 0 6px 0;
+}
+.procent input {
+  border: none;
+  width: 90%;
+  height: 24px;
+}
+.procent label {
+  background-color: hsl(202, 86%, 94%);
+  height: 26px;
+  width: 10%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 6px;
+}
+.type {
+  height: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  margin-bottom: 30px;
+}
+.type_button_1 {
+  width: 95%;
+  border: 2px solid hsl(203, 41%, 72%);
+  border-radius: 5px;
+  padding: 6px;
+  margin-bottom: 10px;
+}
+.type_button_2 {
+  width: 95%;
+  border: 2px solid hsl(203, 41%, 72%);
+  border-radius: 5px;
+  padding: 6px;
+}
+.type_button_1 label {
+  border-radius: 4px;
+}
+.label_text {
+  color: hsl(200, 24%, 40%);
+  margin-bottom: 16px;
+}
+.button_text {
+  color: hsl(202, 55%, 16%);
+}
+.Calculate {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: hsl(61, 70%, 52%);
+  color: hsl(202, 55%, 16%);
+  height: 50px;
+  margin-top: 20px;
+  border-radius: 30px;
+  border: none;
+}
+.Calculate svg {
+  margin-right: 10px;
+}
+.right {
+  border-top-right-radius: 5%;
+  border-bottom-right-radius: 5%;
+  border-bottom-left-radius: 12%;
+  border: 1px solid blue;
+  height: 100%;
+  width: 100%;
+  min-width: 50%;
+  background-color: hsl(202, 55%, 16%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: white;
+}
+.right > p {
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  color: hsl(203, 41%, 72%);
+}
